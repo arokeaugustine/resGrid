@@ -1,0 +1,343 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    padding: 10px 50px;
+    /* border: 2px solid yellowgreen; */
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-color: #EAF8FF;
+    background-size: contain;
+    
+}
+header nav{
+    /* padding: 10px; */
+    /* margin: 20px ; */
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-between;
+    /* border: 2px solid red; */
+}
+#logo{
+    height: 30px;
+    /* border: 2px solid green; */
+}
+header nav button{
+    /* border:none; */
+    padding: 5px 40px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+
+}
+header nav button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 0.7px #6d6d6d;
+}
+#banner{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+#banner div{
+    width:50%;
+    margin-top: 40px;
+    /* text-align: left; */
+} 
+#banner  img{
+    width:500px;
+} 
+#banner h1{
+    font-size: 30px;
+}
+#banner p{
+    font-size: 13px;
+}
+.getstartedbtn{
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.getstartedbtn:hover{
+    cursor: pointer;
+    background-color: #FF9BDB;
+    transition: 0.7s;
+}
+main{
+    /* border: 2px solid red; */
+    padding: 100px 60px;
+}
+.mainImg{
+    width:500px;
+}
+.mainCard{
+    box-shadow: 0px 0px 3px 0.7px #6d6d6d;
+    border-radius: 15px;
+    margin-bottom: 70px;
+}
+.mainCard div{
+    width: 50%;
+    
+}
+#writeup{
+    /* border: 2px solid green; */
+    padding: 90px 10px;
+}
+#writeup p{
+   
+    font-family: 'Open Sans', sans-serif;
+    /* border: 2px solid green; */
+    /* font-weight: normal; */
+}
+
+#someheights{
+    height: 100px;
+    /* margin-top: 50px 0px -180px; */
+}
+#space{
+    border: 1px solid hsl(192, 100%, 9%);
+}
+#community h1{
+    font-size: 30px;
+    /* margin-top: -100px; */
+}
+
+#community{
+box-shadow: 0px 0px 3px 0.7px #6d6d6d;
+border-radius: 15px;
+background-color: white;
+width: 50%;
+margin: -100px auto 0px;
+text-align: center;
+padding: 10px ;
+/* margin-top: -200px; */
+}
+
+footer{
+/* height: 200px; */
+/* margin-top: 100px; */
+background-color: hsl(192, 100%, 9%);
+}
+i{
+    font-size: 25px;
+}
+.textIcon{
+    display: flex;
+    /* justify-items: auto; */
+    /* border: 2px solid red; */
+}
+.textIcon i{
+    padding-right: 35px;
+    padding-top: 20px;
+}
+#mainfooter a{
+    text-decoration: none;
+    color: white;
+}
+#mainfooter a:hover{
+    text-decoration: underline;
+}
+.aboutdiv,.careerdiv,#branddiv{
+    /* border: 3px  solid yellow; */
+    padding-top: 40px;
+}
+
+
+
+
+
+
+@media screen and (min-width:375px) {
+    header{
+        padding: 10px 20px;
+    }
+    #logo{
+        height: 20px;
+        /* width: 100px; */
+    }
+    header nav button{
+        /* border:none; */
+        padding: 5px 20px;
+       
+    }
+    #banner{ 
+        display: inline;
+        align-items: center;
+        margin: auto;
+        /* padding-bottom: 30px; */
+        justify-content: center;
+        /* border: 2px solid seagreen; */
+        font-family: 'Poppins', sans-serif;
+    } 
+    #banner div{
+        width:100%;
+        margin-top: 40px;
+        text-align: center;
+    } 
+    #banner h1{
+        font-size: 20px;
+    }
+    #banner p{
+        font-size: 10px;
+    }
+    #banner  img{
+        width:100%;
+    }
+    main{
+        padding: 80px 20px;
+        /* border: 2px solid red; */
+    }
+ 
+    .mainCard div{
+        width: 100%;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;        
+        /* padding: 20px; */
+        padding-top: 20px;
+        padding-bottom: 20px;
+      
+        /* border: 2px solid green; */
+    }
+    .mainImg{
+        width:90%;
+        /* border: 2px solid yellow; */
+        
+    }
+    #writeup{
+        /* border: 2px solid green; */
+        /* padding: 90px 10px; */
+        width: 90%;
+        margin: auto;
+        padding: 30px 10px;
+    }
+    #writeup p{
+        font-size: 10px;
+    }
+    #someheights{
+        height: 30px;
+        /* margin-top: 50px; */
+    }
+    #community{
+   
+        width: 92%;
+        font-family: 'Poppins', sans-serif;
+        margin: -60px auto 0px;
+     
+        
+        }
+        #community h1{
+            font-size: 20px;
+        }
+        footer{
+            margin-top: 50px;
+        }
+        #mainfooter{
+            font-family: 'Open Sans', sans-serif;
+            color: white;
+            margin:50px auto 10px;
+            padding: 80px 20px 50px;
+            text-align: left;
+            /* display: inline-block; */
+            /* justify-content: space-between; */
+        }
+        #branddiv{
+            text-align: center;
+        }
+        .aboutdiv,.careerdiv,#branddiv{
+            /* border: 3px  solid yellow; */
+            padding-top: 0px;
+        }
+
+}
+
+
+
+
+
+@media screen and (min-width:995px) {
+    header{
+        padding: 10px 80px;
+    }
+    #logo{
+        height: 30px;
+    }
+    header nav button{
+        /* border:none; */
+        padding: 15px 50px;
+    }
+    #banner{
+        display: flex;
+        justify-content: space-between;
+    } 
+    #banner div{
+        width:100%;
+        margin-top: 40px;
+        text-align: left;
+    } 
+    #banner h1{
+        font-size: 39px;
+        /* font-weight: 50px; */
+    }
+    #banner p{
+        font-size: 18px;
+    }
+    main{
+        padding: 80px 80px;
+        /* border: 2px solid red; */
+    }
+    .mainCard{
+        display: flex;
+        justify-content: space-between;
+        /* flex-direction: row-reverse; */
+       
+    }
+    #reversemaincard{
+        flex-direction: row-reverse;
+    }
+    #writeup h1{
+      font-size: 39px;
+      /* border: 2px solid red; */
+    }
+    #writeup p{
+        font-size: 18px;
+    }
+    /* #someheights{
+        height: 100px;
+    } */
+    #community{   
+        width: 50%;
+        margin: -100px auto 0px;
+    }
+    #community h1{
+        font-size: 39px;
+        
+        
+    }
+    footer{
+        margin-top: 100px;
+    }
+    #mainfooter{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 80px 50px;
+        font-size: 20px;
+    }
+    #branddiv{
+        text-align: left;
+    }
+    #copyright{
+        margin-top: 160px;
+    }
+    .aboutdiv,.careerdiv,#branddiv{
+        /* border: 3px  solid yellow; */
+        padding-top: 40px;
+        margin-left: 30px;
+    }
+
+}
